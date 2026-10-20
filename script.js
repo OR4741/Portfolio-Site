@@ -11,9 +11,10 @@ function updateTopButton() {
 }
 
 async function revealPortfolio() {
-  const lineDrawn = new Promise((resolve) => {
-    greetingGuide.addEventListener("animationend", resolve, { once: true });
-  });
+  const lineAnimation = greetingGuide.getAnimations().find(
+    (animation) => animation.animationName === "cover-line-draw"
+  );
+  const lineDrawn = lineAnimation ? lineAnimation.finished : Promise.resolve();
 
   await Promise.all([document.fonts.ready, lineDrawn]);
   document.querySelector("main").inert = false;

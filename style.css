@@ -60,6 +60,20 @@ html.is-loading {
   overflow: hidden;
 }
 
+html.no-js {
+  overflow: auto;
+}
+
+html.no-js .cover-guide {
+  transform: none !important;
+}
+
+html.no-js .cover-meta,
+html.no-js .cover h1,
+html.no-js .cover-greeting {
+  visibility: visible !important;
+}
+
 html.is-loading .cover-meta,
 html.is-loading .cover h1,
 html.is-loading .cover-greeting {
