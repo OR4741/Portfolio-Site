@@ -781,11 +781,6 @@ figcaption span {
   padding: 0 0 104px;
 }
 
-.detail-project {
-  display: grid;
-  gap: 4px;
-}
-
 .detail-project .detail-cover {
   margin-bottom: 0;
 }
