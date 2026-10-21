@@ -783,7 +783,7 @@ figcaption span {
 
 .detail-project {
   display: grid;
-  gap: 16px;
+  gap: 4px;
 }
 
 .detail-project .detail-cover {
