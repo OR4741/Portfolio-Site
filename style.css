@@ -331,7 +331,7 @@ a {
 .profile-list dt {
   color: var(--muted);
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .profile-list--dates dt {
@@ -482,7 +482,7 @@ a {
 
 .chapter-link small {
   margin-top: 8px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: -0.04em;
   line-height: 1.7;
 }
@@ -719,7 +719,7 @@ figcaption span {
 .branding-intro small {
   margin-top: 24px;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: -0.02em;
 }
 
@@ -781,6 +781,11 @@ figcaption span {
   padding: 0 0 104px;
 }
 
+.detail-project {
+  display: grid;
+  gap: 16px;
+}
+
 .detail-project .detail-cover {
   margin-bottom: 0;
 }
@@ -788,7 +793,7 @@ figcaption span {
 .detail-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 4px;
+  gap: 8px;
 }
 
 .detail-grid img {
