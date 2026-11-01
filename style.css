@@ -550,7 +550,7 @@ a {
 }
 
 .logofolio-intro h2 {
-  margin-bottom: 20px;
+  margin-bottom: 32px;
   font-size: 24px;
   font-weight: 600;
   letter-spacing: -0.04em;
@@ -579,7 +579,7 @@ a {
 }
 
 .logofolio-intro small {
-  margin-top: 32px;
+  margin-top: 24px;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: -0.02em;
@@ -701,7 +701,7 @@ figcaption span {
 }
 
 .branding-intro h2 {
-  margin-bottom: 30px;
+  margin-bottom: 32px;
   font-size: 24px;
   font-weight: 600;
   letter-spacing: -0.04em;
